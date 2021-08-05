@@ -1,7 +1,4 @@
 # Drum Machine
 
-## Preview
+## [Preview](https://padmanabh.github.io/drum-machine/)
 ![App preview](public/preview.png)
-
-## Deployed on below link
-[link]([https://padmanabh.github.io/drum-machine)
