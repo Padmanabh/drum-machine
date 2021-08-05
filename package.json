@@ -1,6 +1,6 @@
 {
   "name": "drum-machine",
-  "home": "padmanabh.github.io/drum-machine",
+  "homepage": "http://padmanabh.github.io/drum-machine/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
