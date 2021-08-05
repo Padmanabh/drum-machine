@@ -1,0 +1,88 @@
+.app {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#drum-machine {
+  display: flex;
+  width: 800px;
+  justify-content: space-around;
+  padding: 50px;
+  border: 0px solid #ccc;
+  box-shadow: 10px 10px 30px 1px rgba(0, 0, 0, 0.2);
+}
+
+.drum-panel {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 400px;
+  height: 400px;
+  gap: 10px 10px;
+}
+
+.drum-panel > button {
+  border: 0px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  font-size: xx-large;
+}
+
+/* .drum-panel > button:active {
+  background-color: aqua;
+  font-size: x-large;
+} */
+
+.switch-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+}
+
+#display {
+  width: 100%;
+  height: 50px;
+  background-color: #ccc;
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.switch-panel select,
+input {
+  width: 100%;
+}
+
+select {
+  padding: 10px;
+  font-size: large;
+}
+
+#power {
+  width: 100%;
+  text-align: right;
+}
+
+#power button {
+  border: 0px;
+  padding: 10px;
+  width: 50px;
+}
+
+#power button:active {
+  background-color: red;
+  color: white;
+}
+
+.on {
+  background-color: green;
+  color: white;
+}
+
+h1 {
+  margin-left: 20px;
+}
